@@ -5,6 +5,13 @@ Bomberman Online is an educational project that implements an online Bomberman c
 > **Note:**  
 > The spritesheets were obtained from [Spriters Resource](https://www.spriters-resource.com/nes/bomberman/) and the BetterVCR font from [Dafont](https://www.dafont.com/better-vcr.font). This project is for educational purposes only and is not intended for commercial use. Proper credit to the original rights holders is recommended.
 
+
+## Youtube Overview
+
+[![BomberOnline Youtube Overview](https://img.youtube.com/vi/oLfkm_ia6xI/0.jpg)](https://www.youtube.com/watch?v=oLfkm_ia6xI)
+
+---
+
 ## Getting Started
 
 The project is organized into two main directories:
@@ -17,6 +24,8 @@ A `docker-compose.yml` file at the root of the project allows you to run both th
 ```bash
 docker-compose up --build
 ```
+
+---
 
 ## Overview
 
