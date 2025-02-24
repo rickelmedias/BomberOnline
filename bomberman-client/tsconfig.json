@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "lib": ["ES2016", "dom"],
+    "module": "ESNext",
+    "strict": true,
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "outDir": "dist",
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "types": [
+      "phaser"
+    ]
+  },
+  "include": [
+    "src/**/*"
+  ]
+}

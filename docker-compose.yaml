@@ -1,0 +1,25 @@
+version: "3.8"
+services:
+  server:
+    build:
+      context: ./bomberman-server
+      dockerfile: Dockerfile
+    container_name: bomberman_server
+    ports:
+      - "8000:8000"
+    networks:
+      - bomberman-net
+  client:
+    build:
+      context: ./bomberman-client
+      dockerfile: Dockerfile
+    container_name: bomberman_client
+    ports:
+      - "80:80"
+    depends_on:
+      - server
+    networks:
+      - bomberman-net
+networks:
+  bomberman-net:
+    driver: bridge
