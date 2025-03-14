@@ -16,8 +16,8 @@ Bomberman Online is an educational project that implements an online Bomberman c
 
 The project is organized into two main directories:
 
-- **[bomberman-client](./bomberman-client/README.md):** Contains the client application (TypeScript/Phaser).
-- **[bomberman-server](./bomberman-server/README.md):** Contains the server application (Python/FastAPI).
+- **[bomberman-client](./bomberman-client/):** Contains the client application (TypeScript/Phaser).
+- **[bomberman-server](./bomberman-server/):** Contains the server application (Python/FastAPI).
 
 A `docker-compose.yml` file at the root of the project allows you to run both the client and server together with a single command:
 
